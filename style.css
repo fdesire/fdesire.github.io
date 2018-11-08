@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.tablepic {
+    max-width: 100%;
+}
+
+.tablepic img{
+    width: 100%;
+}
+
+.aboutpic {
+    max-width: 100%;
+}
+
+.aboutpic img{
+    width: 100%;
+}
+
+.nav {
+    padding: 2px;
+}
+.nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #efd458;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.tablepic h1 {
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%;
+   text-align: center;
+   color: #fff;
+   font-size: 80px;
+}
+
+.aboutpic h1 {
+    position: relative;
+    bottom: 824px;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+.biopicture img {
+    width: 40%;
+    padding: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.parent {
+    display: flex;
+    flex: 4;  
+}
+
+.story {
+    padding: 2%;
+    text-align: center;
+}
+
+.storypic img {
+    width: 95%;
+    padding: 3%;
+}
+
+.storysection {
+    display: flex;
+    flex: 4;
+}
+
+.parent2 {
+    display: flex;
+    flex: 4;
+}
+
+.menupic {
+    width: 95%;
+}
+
+.menu {
+    padding-bottom: 80%;
+    text-align: center;
+}
+
+.bodywrapper {
+   background-image: url(images/caribbean3.jpg);
+}
+
+.menupage {
+    color: #FFFFFF;
+    width: 50%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center; 
+}
+
+.salads img {
+    width: 50%;
+}
+
+.starters img {
+    width: 25%;
+}
+
+.entrees img {
+    width: 50%;
+}
+
+.sides img {
+    width: 50%;
+}
+
+.deserts {
+    padding-bottom: 25px;
+}
+
+.deserts img {
+    width: 38%;
+}
+
+.aboutus a {
+    color: #000000;
+}
+
+.aboutus a:hover {
+    color: #efd458;
+}
+
+.fullmenu a {
+    color: #000000;
+}
+
+.fullmenu a:hover {
+    color: #efd458;
+}
